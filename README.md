@@ -38,5 +38,13 @@ Stages of project
 1. Initial Calibration of sensors
    - Capacitive Soil Moisture Sensor ✅
 
+##Log Entry##
+Date: 09.08.2024
+Time: 03:47
+
+- Testing of a sound threshold sensor
+- Purpose: Sensor connected to an RGB LED with common ground
+- Upon detection of sound above threshold, a signal is sent to rotate a servo moto at x-degrees
+- Currently facing issues with calibrating the sound sensor via the soldered-on potentiometer
 
                   
