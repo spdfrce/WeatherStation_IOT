@@ -47,4 +47,12 @@ Time: 03:47
 - Upon detection of sound above threshold, a signal is sent to rotate a servo moto at x-degrees
 - Currently facing issues with calibrating the sound sensor via the soldered-on potentiometer
 
+##Log Entry##
+Date: 11.08.2024
+Time: 08:30
+
+Coombining a Real-Time Clock Module with a Micro SD Card
+- Purpose is to test a synced entry of texts into a created text file on a 16GB SD card
+- Will be implemented to record and timestamp data entry from sensors (Soil Moisture, HumidityxTemp)
+
                   
