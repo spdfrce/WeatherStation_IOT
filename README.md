@@ -54,5 +54,6 @@ Time: 08:30
 Coombining a Real-Time Clock Module with a Micro SD Card
 - Purpose is to test a synced entry of texts into a created text file on a 16GB SD card
 - Will be implemented to record and timestamp data entry from sensors (Soil Moisture, HumidityxTemp)
+- BME 280 (all-in-one barometer x temp x humidity) has had its header pins soldered onto the chip. yet to test.
 
                   
