@@ -56,4 +56,16 @@ Coombining a Real-Time Clock Module with a Micro SD Card
 - Will be implemented to record and timestamp data entry from sensors (Soil Moisture, HumidityxTemp)
 - BME 280 (all-in-one barometer x temp x humidity) has had its header pins soldered onto the chip. yet to test.
 
-                  
+##Log Entry##
+Date: 12.08.2024
+Time: 12:32
+
+- Got the Micro SD card module working; you need to format the card in FAT32 first
+- RTC program can not sync the compilaton time wit the battery; will have to work on it again
+- Tasks for the day (check✅ indicates completed)
+     1. Get the RTC module workin with the new CMOS 2032
+     2. Unplug 5V usb supply; observe it running over 9V energizer to see whether it retains time
+     3. Initialize two(2) SD cards
+     4. Upload code for RTC (Ds1302) & SD adaptor read/write
+     5. Combine RTC & SD adaptor; create "log.txt" and test read/write some data
+     6. Test BME280 Barometric Pressure x Temp&Humidity Sensor
